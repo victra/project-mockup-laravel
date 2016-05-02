@@ -1,0 +1,120 @@
+body {
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  background-color: #e9eaee;
+  text-align: center; }
+
+.header {
+  text-align: left;
+  margin-top: 1%;
+  width: 100%;
+  height: 197px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  .header .banner {
+    text-align: center;
+    width: 100%;
+    height: 129px; }
+    .header .banner .welcome {
+      padding-top: 60px;
+      float: left;
+      width: 40%;
+      text-align: right; }
+    .header .banner .gambar {
+      float: left;
+      width: 20%; }
+    .header .banner .username {
+      padding-top: 60px;
+      float: left;
+      width: 40%;
+      text-align: left; }
+
+.menu {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%; }
+  .menu .kiri {
+    float: left;
+    width: 30%;
+    text-align: left; }
+    .menu .kiri li {
+      background-color: #e5e5e5;
+      margin-right: 5px;
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 3px;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+      .menu .kiri li:hover {
+        color: #1a1a1a;
+        text-decoration: none;
+        background-color: #ededed; }
+    .menu .kiri .dropdown {
+      position: relative;
+      display: inline-block; }
+      .menu .kiri .dropdown a:hover {
+        background-color: #ededed;
+        color: black;
+        cursor: pointer; }
+    .menu .kiri .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #e5e5e5;
+      min-width: 150px;
+      overflow: auto;
+      border-radius: 5px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+      .menu .kiri .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block; }
+    .menu .kiri .show {
+      display: block; }
+  .menu .kanan {
+    float: right;
+    width: 70%;
+    text-align: right; }
+    .menu .kanan li {
+      display: inline-block;
+      background-color: #e5e5e5;
+      margin-right: 5px;
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px 20px;
+      border-radius: 3px;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+      .menu .kanan li:hover {
+        color: #1a1a1a;
+        text-decoration: none;
+        background-color: #ededed; }
+
+input[type="submit"], button {
+  background-color: #e5e5e5;
+  margin-right: 5px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  input[type="submit"]:hover, button:hover {
+    color: gray;
+    text-decoration: none;
+    background-color: #ededed; }
+
+input {
+  border-radius: 3px;
+  padding: 4px; }
+
+.footer {
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */

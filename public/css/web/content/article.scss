@@ -1,0 +1,39 @@
+.isi{
+	padding: 10px 2% 30px;
+	text-align: right;
+	margin: 10px 18.5% 10px 12.5%;
+	width: 69%;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #e1e8ed;
+	overflow: auto;
+	.title{
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.column{
+		margin-top: 20px;
+		.left{
+			float: left;
+			width: 35%;
+			text-align: justify;
+		}
+		.center{
+			width: 2%;
+			float: center; 
+		}
+		.right{
+			float: right;
+			width: 63%;
+			text-align: justify;
+			.judul{
+				text-align: center;
+				font-size: 1.2em;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
